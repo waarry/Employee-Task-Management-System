@@ -1,0 +1,9 @@
+# Copy this file to "application.properties" (same folder) and fill in YOUR values.
+# application.properties is listed in .gitignore, so it will not be uploaded to Git.
+#
+# Alternative: set environment variables ETM_DB_URL, ETM_DB_USER, ETM_DB_PASSWORD.
+# Environment variables take priority over this file.
+
+db.url=jdbc:mysql://localhost:3306/employee_task_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata
+db.username=etm_user
+db.password=CHANGE_ME

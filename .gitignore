@@ -1,0 +1,18 @@
+# Build output
+target/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Local secrets: NEVER commit
+src/main/resources/application.properties
+*.local.properties
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
